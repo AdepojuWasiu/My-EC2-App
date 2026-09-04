@@ -47,7 +47,7 @@ app.get("/health", async (req, res) => {
       redis: "connected",
       time: dbResult.rows[0].now,
       redisPing: redisInfo,
-      test: "Just Push"
+      test: "Just Push Now Now"
     });
   } catch (error) {
     console.error(error);
